@@ -1,13 +1,22 @@
 {
   "name": "tv-search",
   "version": "1.0.0",
-  "description": "",
+  "description": "* Elise Hammons: https://github.com/EHammons\r * Angelica Zamer: https://github.com/abzamer\r * Claude Hatfield: https://github.com/claudehatfield\r * Lacy Tammy: https://github.com/tlacy1000",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EHammons/Project2.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/EHammons/Project2/issues"
+  },
+  "homepage": "https://github.com/EHammons/Project2#readme"
 }

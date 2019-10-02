@@ -14,7 +14,7 @@ if (choice === "show") {
 } else if (choice === "actor") {
     console.log("Your choose an " + choice);
     actor = subject;
-    console.log(actor);
+    tv.findActor(actor);
 } else {
     console.log("You did not request a show or an actor.\nPlease choose again in the following format: \nnode cli.js actor Brad Pitt\nnode cli.js show The Simpsons")
 }

@@ -3,4 +3,11 @@
 
 var choice = process.argv[2];
 var subject = process.argv.slice(3).join(" ");
-console.log(subject + " is a type of " + choice);
+
+if (choice === "show") {
+    console.log("Your choose a " + choice)
+} else if (choice === "actor") {
+    console.log("Your choose an " + choice)
+} else {
+    console.log("You did not request a show or an actor.\nPlease choose again.")
+}

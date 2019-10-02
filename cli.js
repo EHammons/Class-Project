@@ -5,9 +5,11 @@ var choice = process.argv[2];
 var subject = process.argv.slice(3).join(" ");
 
 if (choice === "show") {
-    console.log("Your choose a " + choice)
+    console.log("Your choose a " + choice);
+    console.log(subject);
 } else if (choice === "actor") {
-    console.log("Your choose an " + choice)
+    console.log("Your choose an " + choice);
+    console.log(subject);
 } else {
-    console.log("You did not request a show or an actor.\nPlease choose again.")
+    console.log("You did not request a show or an actor.\nPlease choose again in the following format: \nnode cli.js actor Brad Pitt\nnode cli.js show The Simpsons")
 }
